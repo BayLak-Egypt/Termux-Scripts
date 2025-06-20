@@ -1,13 +1,12 @@
 from telethon import TelegramClient, events
 from telethon.tl.types import InputPeerChannel
 from telethon.errors import FloodWaitError
-import asyncio, json, os, re, time, socket, random, string
+import asyncio, json, os, re, time, socket, random, string, shutil, sys, subprocess
 
 config_path = 'config.js'
 group_path = 'group.js'
 log_file = 'log.txt'
 used_tokens = set()
-import shutil
 
 def print_ascii_banner():
     RED = "\033[91m"
@@ -36,8 +35,6 @@ def print_ascii_banner():
   {RED}🔎 TGBotSniper{RESET} - {GREEN}Telegram Token Auto Sniper{RESET}
 """
         print(banner)
-
-
 
 if os.path.exists(log_file):
     with open(log_file, 'r', encoding='utf-8') as f:
@@ -109,6 +106,9 @@ async def setup(client, usernames):
             if match:
                 bot_username = match.group(1)
                 token = match.group(2)
+                if len(token) < 30:
+                    return
+
                 unique_id = f'{bot_username}:{token}'
                 if unique_id in used_tokens:
                     return
@@ -177,6 +177,10 @@ async def main_loop():
             await asyncio.sleep(20)
 
 if __name__ == "__main__":
+    if '-r' in sys.argv:
+        print("[⚙️] Running scan.py first...")
+        subprocess.run(["python", "scan.py"])
+
     while True:
         try:
             asyncio.run(main_loop())
