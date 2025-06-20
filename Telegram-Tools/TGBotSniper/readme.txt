@@ -10,25 +10,25 @@ Follow the steps below to install and run TGBotSniper on Android via Termux.
 📦 Step 1: Update Your Packages
 pkg update && pkg upgrade -y
 
-🐍 Step 3: Install Dependencies
+🐍 Step 2: Install Dependencies
 pkg install python -y
 pkg install git -y
 
-📁 Step 4: Clone the Project
+📁 Step 3: Clone the Project
 git clone https://github.com/BayLak-ONE/Termux-Scripts.git
 cd Termux-Scripts/Telegram-Tools/TGBotSniper
 
-⚙️ Step 5: Configure Target Groups
+⚙️ Step 4: Configure Target Groups
 Before running the tool, you must edit the list of groups to monitor:
 
 nano group.js
 
 📝 Add the group usernames or IDs that post bot tokens.
 
-📦 Step 6: Install Python Requirements
+📦 Step 5: Install Python Requirements
 pip install -r requirements.txt
 
-🚀 Step 7: Start the Sniper
+🚀 Step 6: Start the Sniper
 python main.py
 
 🔺 Scanner Mode (to find groups with bot tokens):
