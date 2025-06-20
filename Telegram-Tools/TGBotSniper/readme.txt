@@ -31,6 +31,9 @@ pip install -r requirements.txt
 🚀 Step 7: Start the Sniper
 python main.py
 
+🔺 Scanner Mode (to find groups with bot tokens):
+python main.py -r
+
 ⚠️ Important Notes
 Make sure the groups you add in group.js are public or you have joined them.
 
