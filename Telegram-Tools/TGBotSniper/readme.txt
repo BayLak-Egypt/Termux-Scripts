@@ -1,4 +1,5 @@
-🤖 TGBotSniper
+TGBotSniper
+
 TGBotSniper is a powerful Telegram automation tool that monitors groups for exposed bot tokens and automatically snipes them.
 It then sends the tokens to a specified bot to collect rewards or points.
 Built for speed, precision, and stealth. 🚀
