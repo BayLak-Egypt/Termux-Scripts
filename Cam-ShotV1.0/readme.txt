@@ -21,7 +21,7 @@ The script automatically attempts to install these dependencies if they are miss
 
 ## 📥 Installation
 
-1. Clone or download the script as `cam-shot-termuxpy`.
+1. Clone or download the script as `cam-shot-termux.py`.
 2. For **Termux** users, ensure storage permissions are granted:
    ```bash
    termux-setup-storage
