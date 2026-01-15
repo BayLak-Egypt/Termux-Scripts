@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/BayLak-ONE/Termux-Scripts/blob/main/Cam-ShotV1.0/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A5-%D9%A1%D9%A2-%D9%A2%D9%A1-%D9%A0%D9%A1-%D9%A3%D9%A4-%D9%A5%D9%A0-%D9%A4%D9%A0_84d3000e3f4017145260f7618db1d683.jpg)
+
 🔐 Password Hash Cracker
 
 A unified Python-based security tool that combines password collection, hash analysis, and smart caching to improve performance.
