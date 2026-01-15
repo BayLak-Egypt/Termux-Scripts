@@ -1,4 +1,4 @@
-🔐 Password Hash Analyzer
+🔐 Password Hash Cracker
 
 A unified Python-based security tool that combines password collection, hash analysis, and smart caching to improve performance.
 
