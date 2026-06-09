@@ -40,7 +40,7 @@
 
 ## ازاي تثبت Bore
 #Termux:
-|```pkg install rust```|
+```pkg install rust```
 ```cargo install bore-cli```
 
 #Linux: 
