@@ -23,10 +23,9 @@
 ## 🛠️ Prerequisites
 Before running the scripts, ensure your Termux environment is up to date:
 
-```bash
-pkg update && pkg upgrade -y```
+```pkg update && pkg upgrade -y```
 
-pkg install git python php curl -y
-git clone https://github.com/BayLak-Egypt/Termux-Scripts.git
-cd Termux-Scripts
+```pkg install git python php curl -y```
+```git clone https://github.com/BayLak-Egypt/Termux-Scripts.git```
+```cd Termux-Scripts```
 
