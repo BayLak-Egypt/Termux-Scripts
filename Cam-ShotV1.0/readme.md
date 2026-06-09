@@ -8,11 +8,7 @@ An advanced professional tool built with **Python** and **PHP** to track visitor
 ## 🚀 Key Features
 * **Real IP Tracking:** Extracts the visitor's actual IP address even behind Cloudflare.
 * **Deep Geo-Analysis:** Provides (Country, City, and ISP) information.
-* **VPN/Proxy Detection:** Alerts you if the visitor is using anonymization tools.
 * **Intelligent Camera Snapping:** Automatically captures 5 consecutive images and saves them locally.
-* **Trustworthy UI:** Features a clean, official "Security Verification" white-themed web page to increase success rates.
-* **Terminal Dashboard:** Displays all data in an organized table with a Progress Spinner.
-* **No Filters:** Real-time monitoring for every single hit, including bots and self-visits.
 
 ## 🛠️ Requirements
 The script automatically attempts to install these dependencies if they are missing:
