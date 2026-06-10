@@ -37,8 +37,8 @@
 #Termux:
 ```pkg install cloudflared```
 #Linux: 
-```wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb```
-```sudo dpkg -i cloudflared-linux-amd64.deb```
+1- ```wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb```
+2- ```sudo dpkg -i cloudflared-linux-amd64.deb```
 
 
 ## ازاي تثبت Bore
